@@ -1,0 +1,35 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.bg { background-image: url(../images/pattern-bg.png);}
+#map {height: 100vh;}
+.chil {
+  transform: translateY(-50px);
+}
+.arrow {
+  background: hsl(0, 0%, 17%); 
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.arrow:hover {
+  background: hsl(0, 0%, 59%)
+}
+.inp {
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  width: 40%;
+}
+.arrow {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+} 
+.tra {
+  transform: translateY(50%);
+  z-index: 1000000000;
+}
